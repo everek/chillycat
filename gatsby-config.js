@@ -15,6 +15,14 @@ module.exports = {
           `montserrat\:300,400,600`,
         ],
       }
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/ // See below to configure properly
+        }
+      }
     }
   ],
 }
